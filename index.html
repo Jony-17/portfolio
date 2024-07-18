@@ -401,8 +401,29 @@
                         <a href="https://github.com/Jony-17/Projeto-Portal-Saude-Mental" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
+                        <i class="fas fa-play" onclick="playVideo()"></i>
                     </div>
                 </div>
+
+                <div class="video" id="videoPlayer">
+                    <video width="100%" controls autoplay id="myVideo">
+                        <source src="imgs/PortalSaudeMental.mp4" type="video/mp4">
+                    </video>
+                    <i class="fas fa-times-circle close-btn" onclick="stopVideo()"></i>
+                </div>
+
+                <script>
+                    var videoPlayer = document.getElementById("videoPlayer");
+                    var myVideo = document.getElementById("myVideo");
+
+                    function stopVideo() {
+                        videoPlayer.style.display = "none";
+                    }
+
+                    function playVideo() {
+                        videoPlayer.style.display = "block";
+                    }
+                </script>
 
                 <div class="card3">
                     <img src="imgs/imgs-slider/boxchamp.jpg">
