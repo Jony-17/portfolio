@@ -327,6 +327,7 @@ section {
   line-height: 2;
   font-family: Poppins;
   font-weight: 600;
+  animation: fadeIn 3s;
 }
 .begin .wrapper .begin-text .begin-texth1 .line {
   width: 70px;
@@ -345,6 +346,7 @@ section {
   line-height: 2;
   font-family: Poppins;
   font-weight: 400;
+  animation: fadeIn 3s;
 }
 .begin .wrapper .begin-text .btn {
   display: inline-block;
@@ -370,7 +372,7 @@ section {
 .begin .begin-img {
   height: 500px;
   width: 500px;
-  background: url(/imgs/imgs-begin/testeee.jpg); /*/portfolio/imgs/imgs-begin/testeee.jpg*/
+  background: url(/portfolio/imgs/imgs-begin/testeee.jpg); /*/portfolio/imgs/imgs-begin/testeee.jpg*/
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
