@@ -452,13 +452,19 @@ section {
         }*/
 
         p {
-            color: var(--primary-color);
-            /*font-size: $p-font;*/
+            /*color: var(--primary-color);
             font-size: 19px;
             text-align: justify;
             line-height: 2;
             font-family: 'Saira Condensed';
-            font-weight: 600;
+            font-weight: 600;*/
+            color: var(--secondary-color);
+            font-size: 19px;
+            text-align: justify;
+            line-height: 2;
+            font-family: Poppins;
+            font-weight: 400;
+            animation: fadeIn 3s;
         }
 
         .line {
