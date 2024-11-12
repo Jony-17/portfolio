@@ -114,21 +114,21 @@ export default function Qualifications() {
       <div className="banner-container">
         <div className="banner1">
           <img
-            src="/images/imgs-background/background1.png"
+            src={`${process.env.PUBLIC_URL}/images/imgs-background/background1.png`}
             alt="banner background"
           />
         </div>
 
         <div className="banner2">
           <img
-            src="/images/imgs-background/background2.png"
+            src={`${process.env.PUBLIC_URL}/images/imgs-background/background2.png`}
             alt="banner background"
           />
         </div>
 
         <div className="banner3">
           <img
-            src="/images/imgs-background/background3.png"
+            src={`${process.env.PUBLIC_URL}/images/imgs-background/background3.png`}
             alt="banner background"
           />
         </div>
