@@ -28,7 +28,7 @@ const projects = [
   {
     name_pt: "iLavagem",
     name_en: "iLavagem",
-    image: `${process.env.PUBLIC_URL}/images/imgs-slider/iLavagem.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/ilavagem.jpg`,
     link: "https://github.com/Jony-17/iLavagem",
     type_pt: "Projeto Académico",
     type_en: "Academic Project",
