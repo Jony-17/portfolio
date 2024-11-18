@@ -527,7 +527,9 @@ section {
     color: var(--primary-color);
     position: absolute;
     top: 10px;
-    right: 360px;
+    // right: 360px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
     opacity: 0.2;
   }
@@ -934,13 +936,15 @@ section {
 
   .btn-ss {
     // -webkit-text-stroke: 1px var(--primary-color);
-    font-size: 4rem;
+    font-size: 3.9rem;
     text-transform: uppercase;
     font-weight: 700;
     color: var(--primary-color);
     position: absolute;
     top: 10px;
-    right: 280px;
+    // right: 280px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
     opacity: 0.2;
   }
@@ -1256,7 +1260,7 @@ section {
 .projects .container {
   opacity: 0;
   animation: fadeIn 0.8s linear forwards;
-  animation-timeline: view();
+  // animation-timeline: view();
   animation-range: entry;
 }
 
@@ -1396,6 +1400,10 @@ section {
           .begin__description {
             text-align: center;
           }
+
+          // .begin__description {
+          //   width: 0;
+          // }
         }
       }
 
@@ -1411,20 +1419,34 @@ section {
   .background1,
   .background2,
   .banner-container {
-    display: none;
+    // display: none;
+    visibility: hidden;
   }
 
   /*About me*/
-  .about-me h1,
-  .skills-text h1,
-  .experience h1,
-  .projects-text h1 {
-    font-size: 60px;
+  .about-me .title-normal,
+  .skills-text .title-normal,
+  .experience .title-normal,
+  .projects-text .title-normal {
+    font-size: 2.5rem;
+  }
+
+  .about-me .btn-ss,
+  .skills .btn-ss,
+  .experience .btn-ss,
+  .certifications .btn-ss,
+  .projects .btn-ss {
+    font-size: 2.6rem;
+    top: 20px;
   }
 
   .about-me-content {
     flex-direction: column-reverse;
     gap: 20px;
+
+    .about-me-text {
+      font-size: 15px;
+    }
   }
 
   /*Skills and Projects*/
@@ -1446,13 +1468,12 @@ section {
 
   .skills {
     .btn-ss {
-      font-size: 4rem;
       text-transform: uppercase;
       font-weight: 700;
       color: var(--primary-color);
       position: absolute;
-      top: 30px;
-      left: 200px;
+      top: 40px;
+      left: 130px;
       transform: translateX(-50%);
       text-align: center;
       line-height: 1;
@@ -1471,13 +1492,12 @@ section {
 
   .projects {
     .btn-ss {
-      font-size: 3rem;
       text-transform: uppercase;
       font-weight: 700;
       color: var(--primary-color);
       position: absolute;
       top: 35px;
-      left: 215px;
+      left: 190px;
       transform: translateX(-50%);
       text-align: center;
       line-height: 1;
@@ -1555,10 +1575,10 @@ section {
       margin-right: 0;
       margin-left: 0;
 
-      .video {
-        width: 100%;
-        top: 500%;
-      }
+      // .video {
+      //   width: 100%;
+      //   top: 500%;
+      // }
     }
   }
 }

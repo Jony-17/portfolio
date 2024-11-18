@@ -1,64 +1,89 @@
 import React, { useState } from "react";
-import "../styles/style.scss";
 
 const skills = [
   {
     name: "HTML5",
-    icon: "/images/imgs-skills/HTML5.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/HTML5.png`,
     category: "Front-end",
   },
   {
     name: "JavaScript",
-    icon: "/images/imgs-skills/javascript.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/javascript.png`,
     category: "Front-end",
   },
   {
     name: "React",
-    icon: "/images/imgs-skills/react.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/react.png`,
     category: "Front-end",
   },
-  { name: "CSS3", icon: "/images/imgs-skills/css.png", category: "Front-end" },
-  { name: "SASS", icon: "/images/imgs-skills/sass.png", category: "Front-end" },
+  {
+    name: "CSS3",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/css.png`,
+    category: "Front-end",
+  },
+  {
+    name: "SASS",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/sass.png`,
+    category: "Front-end",
+  },
   {
     name: "Tailwind",
-    icon: "/images/imgs-skills/tailwind.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/tailwind.png`,
     category: "Front-end",
   },
-  { name: "PHP", icon: "/images/imgs-skills/php.png", category: "Back-end" },
+  {
+    name: "PHP",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/php.png`,
+    category: "Back-end",
+  },
   {
     name: "Python",
-    icon: "/images/imgs-skills/python.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/python.png`,
     category: "Back-end",
   },
   {
     name: "MySQL",
-    icon: "/images/imgs-skills/mysql.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/mysql.png`,
     category: "Base de dados",
   },
   {
     name: "SQL Server",
-    icon: "/images/imgs-skills/sql-server.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/sql-server.png`,
     category: "Base de dados",
   },
-  { name: "Figma", icon: "/images/imgs-skills/figma.png", category: "Design" },
+  {
+    name: "Figma",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/figma.png`,
+    category: "Design",
+  },
   {
     name: "Adobe Illustrator",
-    icon: "/images/imgs-skills/adobeillustrator.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/adobeillustrator.png`,
     category: "Design",
   },
   {
     name: "Bootstrap",
-    icon: "/images/imgs-skills/bootstrap.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/bootstrap.png`,
     category: "Front-end",
   },
   {
+    name: "Jest",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/jest.png`,
+    category: "Testes",
+  },
+  {
+    name: "React Testing Library",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/testinglibrary.png`,
+    category: "Testes",
+  },
+  {
     name: "GitHub",
-    icon: "/images/imgs-skills/github.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/github.png`,
     category: "Controlo de versão",
   },
   {
     name: "Git",
-    icon: "/images/imgs-skills/git.png",
+    icon: `${process.env.PUBLIC_URL}/images/imgs-skills/git.png`,
     category: "Controlo de versão",
   },
 ];
@@ -132,6 +157,9 @@ export default function Skills() {
             Design
           </button>
           {/* <button className="btn-all">Teste</button> */}
+          <button className="btn-all" onClick={() => handleCategory("Testes")}>
+            Testes
+          </button>
           <button
             className="btn-all"
             onClick={() => handleCategory("Controlo de versão")}

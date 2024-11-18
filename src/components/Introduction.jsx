@@ -130,11 +130,11 @@ export default function Introduction() {
           improving user experiences with performance and accessibility in mind.
         </p>
 
-        <a href="/CV-JoãoAraújo.pdf" className="btn" download data-lang="pt">
+        <a href="/CV_JoãoAraújo.pdf" className="btn" download data-lang="pt">
           Download do meu CV
         </a>
         <a
-          href="/CV-JoãoAraújo.pdf"
+          href="/CV_JoãoAraújo.pdf"
           className="btn"
           download
           data-lang="en"

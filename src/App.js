@@ -9,7 +9,7 @@ function App() {
   const [language, setLanguage] = useState("pt");
   const [darkMode, setDarkMode] = useState(false);
 
-  const [isHidden, setIsHidden] = useState(false);
+  // const [isHidden, setIsHidden] = useState(false);
 
   const scrollToTop = useRef(null);
 
@@ -84,17 +84,17 @@ function App() {
     document.documentElement.scrollTop = 0;
   }
 
-  useEffect(() => {
-    const handlePageLoad = () => {
-      setIsHidden(true);
-    };
+  // useEffect(() => {
+  //   const handlePageLoad = () => {
+  //     setIsHidden(true);
+  //   };
 
-    window.addEventListener("load", handlePageLoad);
+  //   window.addEventListener("load", handlePageLoad);
 
-    return () => {
-      window.removeEventListener("load", handlePageLoad);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("load", handlePageLoad);
+  //   };
+  // }, []);
 
   return (
     <PostContext.Provider
@@ -104,9 +104,9 @@ function App() {
       <Main />
       <Footer />
 
-      <div className={`loader ${isHidden ? "loader--hidden" : ""}`}>
+      {/* <div className={`loader ${isHidden ? "loader--hidden" : ""}`}>
         A carregar...
-      </div>
+      </div> */}
 
       <button
         ref={scrollToTop}

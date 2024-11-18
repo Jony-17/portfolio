@@ -4,15 +4,23 @@ const projects = [
   {
     name_pt: "Portal de Saúde Mental",
     name_en: "Mental Health Portal",
-    image: "/images/imgs-slider/mental-health.jpg",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/mental-health.jpg`,
     link: "https://github.com/Jony-17/Projeto-Portal-Saude-Mental",
     type_pt: "Académico/Projeto Pessoal",
     type_en: "Academic/Personal Project",
   },
   {
+    name_pt: "PopCornFilms",
+    name_en: "PopCornFilms",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/popcornfilms.png`,
+    link: "https://github.com/Jony-17/PopCornFilms",
+    type_pt: "Projeto Pessoal",
+    type_en: "Personal Project",
+  },
+  {
     name_pt: "Box Champ",
     name_en: "Box Champ",
-    image: "/images/imgs-slider/boxchamp.jpg",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/boxchamp.jpg`,
     link: "https://github.com/Jony-17/Box-Champ",
     type_pt: "Projeto Pessoal",
     type_en: "Personal Project",
@@ -20,7 +28,7 @@ const projects = [
   {
     name_pt: "JPMusicShop",
     name_en: "JPMusicShop",
-    image: "/images/imgs-slider/jpmusicshop.jpg",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/jpmusicshop.jpg`,
     link: "",
     type_pt: "Projeto Académico",
     type_en: "Academic Project",
@@ -28,7 +36,7 @@ const projects = [
   {
     name_pt: "iLavagem",
     name_en: "iLavagem",
-    image: "/images/imgs-slider/iLavagem.jpg",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/ilavagem.jpg`,
     link: "https://github.com/Jony-17/iLavagem",
     type_pt: "Projeto Académico",
     type_en: "Academic Project",
@@ -36,7 +44,7 @@ const projects = [
   {
     name_pt: "Tasty Food",
     name_en: "Tasty Food",
-    image: "/images/imgs-slider/tastyfood.jpg",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/tastyfood.jpg`,
     link: "https://github.com/Jony-17/Tasty-Food",
     type_pt: "Projeto Pessoal",
     type_en: "Personal Project",
