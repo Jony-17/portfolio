@@ -9,42 +9,123 @@ export default function Qualifications() {
 
   const qualifications = [
     {
-      titlePt: "CTeSP - Tecnologias e Programação de Sistemas de Informação",
-      titleEn: "CTeSP - Information Systems Technologies and Programming",
-      educatInst: "Instituto Superior Politécnico de Gaya",
-      yearPt: "2019-2021",
-      yearEn: "",
+      titlePt: "Tech Presales",
+      titleEn: "Tech Presales",
+      educatInst: "Eidosmedia",
+      yearPt: "janeiro 2025 - Presente",
+      yearEn: "january 2025 - Present",
       details: (
-        <ul style={{ paddingLeft: "60px" }}>
-          <li style={{ listStyleType: "disc" }}>HTML</li>
-          <li style={{ listStyleType: "disc" }}>CSS</li>
-          <li style={{ listStyleType: "disc" }}>JavaScript</li>
-          <li style={{ listStyleType: "disc" }}>Bootstrap</li>
-          <li style={{ listStyleType: "disc" }}>MySQL</li>
-          <li style={{ listStyleType: "disc" }}>PHP</li>
-          <li style={{ listStyleType: "disc" }}>Java</li>
-          <li style={{ listStyleType: "disc" }}>Metodologias Agile</li>
-        </ul>
+        <>
+          <div data-lang="pt">
+            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
+              <li style={{ listStyleType: "disc" }}>
+                Desenvolvi soluções que destacam os valores essenciais do
+                software para potenciais clientes e atuais, como por exemplo,
+                J.P. Morgan, na forma de proof-of-concept usando{" "}
+                <strong>JavaScript, jQuery, Node.js (Express), CSS, XML</strong>{" "}
+                e <strong>REST API</strong> integrações testadas com
+                integrations tested with <strong>Postman</strong>, dependendo da
+                necessidade do projeto;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Apoiar a preparação de respostas a solicitações de propostas
+                (RFPs) e outras consultas de clientes;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Participar na demonstração de produtos e contribuir para a
+                preparação das demonstrações;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Colaborar com as equipas de vendas e produto para coletar e
+                analisar os requisitos dos clientes;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Trabalhei num ambiente baseado em <strong>Linux</strong> para
+                desenvolvimento e testes.
+              </li>
+            </ul>
+          </div>
+
+          <div data-lang="en">
+            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
+              <li style={{ listStyleType: "disc" }}>
+                Developed solutions that highlight the software core values to
+                prospects and customers, e.g. J.P. Morgan, in the form of
+                proof-of-concept using{" "}
+                <strong>JavaScript, jQuery, Node.js (Express), CSS, XML</strong>{" "}
+                and <strong>REST API</strong> integrations tested with{" "}
+                <strong>Postman</strong>, depending on project requirement;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Support the preparation of responses to Requests for Proposals
+                (RFPs) and other customer inquiries;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Participate in product demonstrations and contribute to demo
+                preparations;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Collaborate with sales and product teams to gather and analyze
+                customer requirements;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Worked in a <strong>Linux</strong> based environment for
+                development and testing.
+              </li>
+            </ul>
+          </div>
+        </>
       ),
     },
 
     {
-      titlePt: "Estágio curricular",
-      titleEn: "Curricular intership",
-      educatInst: "WeCreateYou",
-      yearPt: "março 2021 - agosto 2021",
-      yearEn: "march 2021 - august 2021",
+      titlePt: "Estágio interno",
+      titleEn: "Internal intership",
+      educatInst: "WideSkills - Instituto Superior Politécnico de Gaya",
+      yearPt: "fevereiro 2024 - julho 2024",
+      yearEn: "february 2024 - july 2024",
       details: (
         <>
-          <p data-lang="pt">
-            Trabalhei essencialmente com edição de imagem, utilizado a
-            ferramenta <em>Adobe Illustrator</em>, com o intuito de melhorar a
-            experiência do utilizador.
-          </p>
-          <p data-lang="en" style={{ display: "none" }}>
-            I mainly worked with image editing, using <em>Adobe Illustrator</em>
-            , with the aim of improving my user experience skills.
-          </p>
+          <div data-lang="pt">
+            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
+              <li style={{ listStyleType: "disc" }}>
+                Desenvolvi um site de conscientização sobre saúde mental como
+                projeto final de curso. Planeei e prototipei a{" "}
+                <strong>UX/UI</strong> usando <strong>Figma</strong> e{" "}
+                <strong>Adobe Illustrator</strong>, e implementei com{" "}
+                <strong>HTML, CSS, JavaScript</strong> e <strong>PHP</strong>{" "}
+                para promover a conscientização entre estudantes universitários
+                e combater a desinformação sobre o tema;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                Além do conteúdo interativo e educativo desenvolvido para
+                abordar a falta de conhecimento sobre questões de saúde mental,
+                implementei um simples chatbot, usando{" "}
+                <strong>Python (Flask)</strong>, para responder a perguntas
+                frequentes e incentivar a interação com o utilizador.
+              </li>
+            </ul>
+          </div>
+
+          <div data-lang="en">
+            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
+              <li style={{ listStyleType: "disc" }}>
+                Developed a mental health awareness website as a final course
+                project. Planned and prototyped the <strong>UX/UI</strong> using{" "}
+                <strong>Figma</strong> and <strong>Adobe Illustrator</strong>,
+                and implemented it with <strong>HTML, CSS, JavaScript</strong>{" "}
+                and <strong>PHP</strong> to promote awareness among university
+                students and combat misinformation on the topic;
+              </li>
+              <li style={{ listStyleType: "disc" }}>
+                In addition to the interactive and educational content designed
+                to address the lack of knowledge about mental health issues,
+                implemented a simple chatbot, using{" "}
+                <strong>Python (Flask)</strong>, to answer frequently asked
+                questions and encourage user engagement.
+              </li>
+            </ul>
+          </div>
         </>
       ),
     },
@@ -68,145 +149,44 @@ export default function Qualifications() {
     },
 
     {
-      titlePt: "Estágio interno",
-      titleEn: "Internal intership",
-      educatInst: "WideSkills - Instituto Superior Politécnico de Gaya",
-      yearPt: "fevereiro 2024 - julho 2024",
-      yearEn: "february 2024 - july 2024",
+      titlePt: "Estágio curricular",
+      titleEn: "Curricular intership",
+      educatInst: "WeCreateYou",
+      yearPt: "março 2021 - agosto 2021",
+      yearEn: "march 2021 - august 2021",
       details: (
         <>
           <p data-lang="pt">
-            Desenvolvi um website na área da saúde mental, como projeto final de
-            curso. O objetivo era permitir que os estudantes da faculdade
-            aprendessem sobre e mitigassem a falta de conhecimento sobre a
-            importância da saúde mental na atualidade. É importante destacar que
-            este projeto proporcionou a oportunidade de escrever um artigo
-            científico. O projeto utilizou tecnologias como:
-            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
-              <li style={{ listStyleType: "disc" }}>HTML</li>
-              <li style={{ listStyleType: "disc" }}>CSS</li>
-              <li style={{ listStyleType: "disc" }}>JavaScript</li>
-              <li style={{ listStyleType: "disc" }}>PHP</li>
-              <li style={{ listStyleType: "disc" }}>Python</li>
-            </ul>
+            Trabalhei principalmente com edição de imagem, utilizando a
+            ferramenta <strong>Adobe Illustrator</strong>, com o intuito de
+            melhorar a experiência do utilizador.
           </p>
           <p data-lang="en" style={{ display: "none" }}>
-            I developed a website in the area of mental health, as a final
-            course project. Its objective was to allow college students to learn
-            about and mitigate the lack of knowledge about the importance of
-            mental health today. It is important to highlight that this project
-            gave rise to the opportunity to write a scientific article. The
-            project used technologies such as:
-            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
-              <li style={{ listStyleType: "disc" }}>HTML</li>
-              <li style={{ listStyleType: "disc" }}>CSS</li>
-              <li style={{ listStyleType: "disc" }}>JavaScript</li>
-              <li style={{ listStyleType: "disc" }}>PHP</li>
-              <li style={{ listStyleType: "disc" }}>Python</li>
-            </ul>
+            Worked primarily with image editing, using{" "}
+            <strong>Adobe Illustrator</strong>, with the aim of improving user
+            experience skills
           </p>
-          <div data-lang="pt">
-            <p>
-              Desenvolvi um website na área da saúde mental, como projeto final
-              de curso. O objetivo era permitir que os estudantes da faculdade
-              aprendessem sobre e mitigassem a falta de conhecimento sobre a
-              importância da saúde mental na atualidade. É importante destacar
-              que este projeto proporcionou a oportunidade de escrever um artigo
-              científico. O projeto utilizou tecnologias como:
-            </p>
-            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
-              {" "}
-              <li style={{ listStyleType: "disc" }}>HTML</li>{" "}
-              <li style={{ listStyleType: "disc" }}>CSS</li>{" "}
-              <li style={{ listStyleType: "disc" }}>JavaScript</li>{" "}
-              <li style={{ listStyleType: "disc" }}>PHP</li>{" "}
-              <li style={{ listStyleType: "disc" }}>Python</li>{" "}
-            </ul>
-          </div>
-
-          {/* EN */}
-          <div data-lang="en" style={{ display: "none" }}>
-            <p>
-              I developed a website in the area of mental health, as a final
-              course project. Its objective was to allow college students to
-              learn about and mitigate the lack of knowledge about the
-              importance of mental health today. It is important to highlight
-              that this project gave rise to the opportunity to write a
-              scientific article. The project used technologies such as:
-            </p>
-            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
-              {" "}
-              <li style={{ listStyleType: "disc" }}>HTML</li>{" "}
-              <li style={{ listStyleType: "disc" }}>CSS</li>{" "}
-              <li style={{ listStyleType: "disc" }}>JavaScript</li>{" "}
-              <li style={{ listStyleType: "disc" }}>PHP</li>{" "}
-              <li style={{ listStyleType: "disc" }}>Python</li>{" "}
-            </ul>
-          </div>
         </>
       ),
     },
 
     {
-      titlePt: "Tech Presales",
-      titleEn: "Tech Presales",
-      educatInst: "Eidosmedia",
-      yearPt: "janeiro 2025 - ",
-      yearEn: "january 2025 - ",
+      titlePt: "CTeSP - Tecnologias e Programação de Sistemas de Informação",
+      titleEn: "CTeSP - Information Systems Technologies and Programming",
+      educatInst: "Instituto Superior Politécnico de Gaya",
+      yearPt: "2019-2021",
+      yearEn: "",
       details: (
-        <>
-          <div data-lang="pt">
-            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
-              <li style={{ listStyleType: "disc" }}>
-                Desenvolver soluções que destacam os valores essenciais do
-                software para potenciais clientes e clientes, como por exemplo,
-                J.P. Morgan, na forma de proof-of-concept;
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                Apoiar a preparação de respostas a solicitações de propostas
-                (RFPs) e outras consultas de clientes;
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                Participar na demonstração de produtos e contribuir para a
-                preparação das demonstrações;
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                Colaborar com as equipas de vendas e produto para coletar e
-                analisar os requisitos dos clientes.
-              </li>
-            </ul>
-            <p>
-              Tecnologias usadas: JavaScript, Node.js, Express, jQuery, CSS,
-              XML, REST APIs, Linux.
-            </p>
-          </div>
-
-          <div data-lang="en">
-            <ul style={{ paddingLeft: "40px", marginTop: "10px" }}>
-              <li style={{ listStyleType: "disc" }}>
-                Develop solutions that highlight the software core values to
-                prospects and customers, e.g. J.P. Morgan, in the form of
-                proof-of-concept;
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                Support the preparation of responses to Requests for Proposals
-                (RFPs) and other customer inquiries;
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                Participate in product demonstrations and contribute to demo
-                preparations;
-              </li>
-              <li style={{ listStyleType: "disc" }}>
-                Collaborate with sales and product teams to gather and analyze
-                customer requirements.
-              </li>
-            </ul>
-            <p>
-              Technologies used: JavaScript, Node.js, Express, jQuery, CSS, XML,
-              REST APIs, Linux.
-            </p>
-          </div>
-        </>
+        <ul style={{ paddingLeft: "60px" }}>
+          <li style={{ listStyleType: "disc" }}>HTML</li>
+          <li style={{ listStyleType: "disc" }}>CSS</li>
+          <li style={{ listStyleType: "disc" }}>JavaScript</li>
+          <li style={{ listStyleType: "disc" }}>Bootstrap</li>
+          <li style={{ listStyleType: "disc" }}>MySQL</li>
+          <li style={{ listStyleType: "disc" }}>PHP</li>
+          <li style={{ listStyleType: "disc" }}>Java</li>
+          <li style={{ listStyleType: "disc" }}>Metodologias Agile</li>
+        </ul>
       ),
     },
   ];

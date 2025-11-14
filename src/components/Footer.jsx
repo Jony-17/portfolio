@@ -18,9 +18,9 @@ export default function Footer() {
           <i className="fab fa-github"></i>
         </a>
       </div>
-      <p data-lang="pt">João Araújo © 2024 Todos os direitos reservados</p>
+      <p data-lang="pt">João Araújo © 2025 Todos os direitos reservados</p>
       <p data-lang="en" style={{ display: "none" }}>
-        João Araújo © 2024 All Rights Reserved.
+        João Araújo © 2025 All Rights Reserved.
       </p>
     </section>
   );

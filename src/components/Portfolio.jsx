@@ -2,12 +2,31 @@ import React from "react";
 
 const projects = [
   {
+    name_pt: "Football API",
+    name_en: "Football API",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/football.png`,
+    link: "https://github.com/Jony-17/",
+    type_pt: "Projeto Pessoal",
+    type_en: "Personal Project",
+    stack: ["React", "React Router", "Tailwind", "Node.js"],
+  },
+  {
+    name_pt: "Oops I Inked Again",
+    name_en: "Oops I Inked Again",
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/oopsiinkedagain.png`,
+    link: "https://github.com/Jony-17/oopsiinkedagain",
+    type_pt: "Projeto Pessoal",
+    type_en: "Personal Project",
+    stack: ["React", "React Router", "Tailwind"],
+  },
+  {
     name_pt: "Portal de Saúde Mental",
     name_en: "Mental Health Portal",
-    image: `${process.env.PUBLIC_URL}/images/imgs-slider/mental-health.jpg`,
+    image: `${process.env.PUBLIC_URL}/images/imgs-slider/mental-health.png`,
     link: "https://github.com/Jony-17/Projeto-Portal-Saude-Mental",
     type_pt: "Académico/Projeto Pessoal",
     type_en: "Academic/Personal Project",
+    stack: ["HTML", "CSS", "JavaScript", "PHP", "Python"],
   },
   {
     name_pt: "CountriesApp",
@@ -16,6 +35,7 @@ const projects = [
     link: "https://github.com/Jony-17/Countries-App/",
     type_pt: "Projeto Pessoal",
     type_en: "Personal Project",
+    stack: ["React", "Vite", "Tailwind", "Axios"],
   },
   {
     name_pt: "PopCornFilms",
@@ -24,6 +44,7 @@ const projects = [
     link: "https://github.com/Jony-17/PopCornFilms",
     type_pt: "Projeto Pessoal",
     type_en: "Personal Project",
+    stack: ["React", "CRA", "CSS", "Fetch API"],
   },
   // {
   //   name_pt: "Box Champ",
@@ -40,6 +61,7 @@ const projects = [
     link: "",
     type_pt: "Projeto Académico",
     type_en: "Academic Project",
+    stack: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   {
     name_pt: "iLavagem",
@@ -48,6 +70,7 @@ const projects = [
     link: "https://github.com/Jony-17/iLavagem",
     type_pt: "Projeto Académico",
     type_en: "Academic Project",
+    stack: ["HTML", "CSS", "JavaScript", "PHP"],
   },
   // {
   //   name_pt: "Tasty Food",
@@ -66,14 +89,14 @@ export default function Portfolio() {
         <div className="projects-text">
           <div className="title-wrapper">
             <h1 data-lang="pt" className="btn-ss">
-              Pessoais e académicos
+              Porfolio
             </h1>
             <h1 data-lang="pt" className="title-normal">
               Projetos
             </h1>
 
             <h1 data-lang="en" className="btn-ss" style={{ display: "none" }}>
-              Personal and academic
+              Porfolio
             </h1>
             <h1
               data-lang="en"
@@ -90,10 +113,17 @@ export default function Portfolio() {
             <div className="card3" key={index}>
               <img src={project.image} alt={project.name} />
               <div className="overlay">
-                <div className="overlay__icon">
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    {project.link ? <i className="fab fa-github"></i> : ""}
-                  </a>
+                <div className="overlay__icon-text">
+                  <div className="overlay__icon">
+                    <a href={project.link} target="_blank" rel="noreferrer">
+                      {project.link ? <i className="fab fa-github"></i> : ""}
+                    </a>
+                  </div>
+                  <div className="overlay__textt">
+                    {project.stack.map((tech, techIndex) => (
+                      <span key={techIndex}>{tech}</span>
+                    ))}
+                  </div>
                 </div>
                 <div className="overlay__text">
                   <h1 data-lang="pt">{project.name_pt}</h1>
